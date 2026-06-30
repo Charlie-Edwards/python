@@ -63,7 +63,7 @@ def search():
                 pass
 
             try:
-                r = requests.get(q, headers=uagent, proxies=proxies, headers=uagent)
+                r = requests.get(q, headers=uagent, proxies=proxies)
             except:
                 r = requests.get(q, headers=uagent)
 
